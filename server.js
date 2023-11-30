@@ -16,7 +16,7 @@ app.use((req,res, next) => {
 
 app.use('/api/user/', userRoute)
 
-mongoose.connect(process.env.MONGO_URI).
+mongoose.connect('mongodb+srv://BrunoSilva:f4DMrm90NiqolYEQ@user-auth.xxpqi4i.mongodb.net/?retryWrites=true&w=majority').
     then(() => {
         app.listen(process.env.PORT, () => { 
             console.log('connect to DB!')
