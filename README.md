@@ -23,7 +23,7 @@ on the port specified in the .env file</p>
 <p>In the begin we import the functions at userController.js</b>
 <p>In the end we export the route const</b>
 <br>
-
+<br>
 
 <h3><b>UserController.js</b> file contains the functions to <b>SignUp</b>, <b>SignIn</b> and <b>Search</b> Users</h3>
 <p>We import json web token and our User Model at begin</p>
