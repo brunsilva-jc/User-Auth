@@ -15,19 +15,21 @@
 <p>Then we import our routes module</p>
 <p>We connect to Database an if connected we start listen 
 on the port specified in the .env file</p>
+<br>
 
 
 <h3><b>User.js</b> file contains the routes used on this API</h3>
 <p>We use Express router to define the paths of our application</p>
 <p>In the begin we import the functions at userController.js</b>
 <p>In the end we export the route const</b>
+<br>
 
 
 <h3><b>UserController.js</b> file contains the functions to <b>SignUp</b>, <b>SignIn</b> and <b>Search</b> Users</h3>
 <p>We import json web token and our User Model at begin</p>
 
 <p><b>Functions:</b></p>
-<br>
+
 <p><b>SignUp</b></p>
 <p>The SignUp function receives from the requisition body the fields "nome", "email", "senha" e "telefones"</p>
 <p>Then checks if the passed email already exists on database, if not the function Create a new User on database returning
